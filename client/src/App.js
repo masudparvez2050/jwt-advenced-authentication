@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import useJwt from './utils/useJwt'
-import { createRequire } from 'module';
 
-var require = createRequire(import.meta.url);
-var module = { exports: {} };
 
 function App() {
   const [state, setState] = useState({
